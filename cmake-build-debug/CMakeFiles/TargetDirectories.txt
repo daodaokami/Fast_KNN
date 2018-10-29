@@ -1,0 +1,6 @@
+/home/lut/Desktop/C++/fastknn/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/lut/Desktop/C++/fastknn/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/lut/Desktop/C++/fastknn/cmake-build-debug/CMakeFiles/fastknn.dir
+/home/lut/Desktop/C++/fastknn/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
+/home/lut/Desktop/C++/fastknn/cmake-build-debug/src/CMakeFiles/edit_cache.dir
+/home/lut/Desktop/C++/fastknn/cmake-build-debug/src/CMakeFiles/ai_tools.dir
