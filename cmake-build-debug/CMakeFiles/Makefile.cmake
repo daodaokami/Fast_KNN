@@ -12,6 +12,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.10.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.10.3/CMakeSystem.cmake"
   "../src/CMakeLists.txt"
+  "../test/CMakeLists.txt"
   "/home/lut/Downloads/apps/clion-2018.1.3/bin/cmake/share/cmake-3.10/Modules/CMakeCInformation.cmake"
   "/home/lut/Downloads/apps/clion-2018.1.3/bin/cmake/share/cmake-3.10/Modules/CMakeCXXInformation.cmake"
   "/home/lut/Downloads/apps/clion-2018.1.3/bin/cmake/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake"
@@ -25,12 +26,18 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/lut/Downloads/apps/clion-2018.1.3/bin/cmake/share/cmake-3.10/Modules/Compiler/GNU-C.cmake"
   "/home/lut/Downloads/apps/clion-2018.1.3/bin/cmake/share/cmake-3.10/Modules/Compiler/GNU-CXX.cmake"
   "/home/lut/Downloads/apps/clion-2018.1.3/bin/cmake/share/cmake-3.10/Modules/Compiler/GNU.cmake"
+  "/home/lut/Downloads/apps/clion-2018.1.3/bin/cmake/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake"
+  "/home/lut/Downloads/apps/clion-2018.1.3/bin/cmake/share/cmake-3.10/Modules/FindPackageMessage.cmake"
   "/home/lut/Downloads/apps/clion-2018.1.3/bin/cmake/share/cmake-3.10/Modules/Platform/Linux-GNU-C.cmake"
   "/home/lut/Downloads/apps/clion-2018.1.3/bin/cmake/share/cmake-3.10/Modules/Platform/Linux-GNU-CXX.cmake"
   "/home/lut/Downloads/apps/clion-2018.1.3/bin/cmake/share/cmake-3.10/Modules/Platform/Linux-GNU.cmake"
   "/home/lut/Downloads/apps/clion-2018.1.3/bin/cmake/share/cmake-3.10/Modules/Platform/Linux.cmake"
   "/home/lut/Downloads/apps/clion-2018.1.3/bin/cmake/share/cmake-3.10/Modules/Platform/UnixPaths.cmake"
   "/home/lut/Downloads/apps/clion-2018.1.3/bin/cmake/share/cmake-3.10/Modules/ProcessorCount.cmake"
+  "/usr/local/share/OpenCV/OpenCVConfig-version.cmake"
+  "/usr/local/share/OpenCV/OpenCVConfig.cmake"
+  "/usr/local/share/OpenCV/OpenCVModules-release.cmake"
+  "/usr/local/share/OpenCV/OpenCVModules.cmake"
   )
 
 # The corresponding makefile is:
@@ -43,10 +50,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "test/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/fastknn.dir/DependInfo.cmake"
-  "src/CMakeFiles/ai_tools.dir/DependInfo.cmake"
+  "src/CMakeFiles/mathtools.dir/DependInfo.cmake"
+  "test/CMakeFiles/getdis.dir/DependInfo.cmake"
   )

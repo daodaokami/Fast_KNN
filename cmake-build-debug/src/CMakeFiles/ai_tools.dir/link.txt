@@ -1,1 +1,1 @@
-/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libai_tools.so -o libai_tools.so CMakeFiles/ai_tools.dir/kdtree.cpp.o CMakeFiles/ai_tools.dir/knn.cpp.o 
+/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libai_tools.so -o libai_tools.so CMakeFiles/ai_tools.dir/kdtree.cpp.o CMakeFiles/ai_tools.dir/knn.cpp.o CMakeFiles/ai_tools.dir/distance.cpp.o 

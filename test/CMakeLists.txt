@@ -1,0 +1,2 @@
+add_executable(getdis testdistance.cpp)
+target_link_libraries(getdis mathtools)

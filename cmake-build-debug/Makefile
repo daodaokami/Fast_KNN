@@ -111,57 +111,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named fastknn
+# Target rules for targets named mathtools
 
 # Build rule for target.
-fastknn: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 fastknn
-.PHONY : fastknn
+mathtools: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mathtools
+.PHONY : mathtools
 
 # fast build rule for target.
-fastknn/fast:
-	$(MAKE) -f CMakeFiles/fastknn.dir/build.make CMakeFiles/fastknn.dir/build
-.PHONY : fastknn/fast
+mathtools/fast:
+	$(MAKE) -f src/CMakeFiles/mathtools.dir/build.make src/CMakeFiles/mathtools.dir/build
+.PHONY : mathtools/fast
 
 #=============================================================================
-# Target rules for targets named ai_tools
+# Target rules for targets named getdis
 
 # Build rule for target.
-ai_tools: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ai_tools
-.PHONY : ai_tools
+getdis: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 getdis
+.PHONY : getdis
 
 # fast build rule for target.
-ai_tools/fast:
-	$(MAKE) -f src/CMakeFiles/ai_tools.dir/build.make src/CMakeFiles/ai_tools.dir/build
-.PHONY : ai_tools/fast
-
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/fastknn.dir/build.make CMakeFiles/fastknn.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/fastknn.dir/build.make CMakeFiles/fastknn.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/fastknn.dir/build.make CMakeFiles/fastknn.dir/main.cpp.s
-.PHONY : main.cpp.s
+getdis/fast:
+	$(MAKE) -f test/CMakeFiles/getdis.dir/build.make test/CMakeFiles/getdis.dir/build
+.PHONY : getdis/fast
 
 # Help Target
 help:
@@ -171,11 +144,8 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... fastknn"
-	@echo "... ai_tools"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... mathtools"
+	@echo "... getdis"
 .PHONY : help
 
 

@@ -6,5 +6,5 @@ CXX_FLAGS = -g -fPIC   -std=gnu++11
 
 CXX_DEFINES = -Dai_tools_EXPORTS
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/lut/Desktop/C++/fastknn/include -I/usr/local/include -I/usr/local/include/opencv 
 

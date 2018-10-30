@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lut/Desktop/C++/fastknn/include/distance.h
+
+/home/lut/Desktop/C++/fastknn/include/kdtree.h
+map
+-
+vector
+-
+stdio.h
+-
+cmath
+-
+cstdlib
+-
+algorithm
+-
+
+/home/lut/Desktop/C++/fastknn/include/knn.h
+
+/home/lut/Desktop/C++/fastknn/src/distance.cpp
+../include/distance.h
+/home/lut/Desktop/C++/fastknn/include/distance.h
+cmath
+-
+
+/home/lut/Desktop/C++/fastknn/src/kdtree.cpp
+../include/kdtree.h
+/home/lut/Desktop/C++/fastknn/include/kdtree.h
+
+/home/lut/Desktop/C++/fastknn/src/knn.cpp
+../include/knn.h
+/home/lut/Desktop/C++/fastknn/include/knn.h
+

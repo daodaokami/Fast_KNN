@@ -10,11 +10,14 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../include"
+  "/usr/local/include"
+  "/usr/local/include/opencv"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/lut/Desktop/C++/fastknn/cmake-build-debug/src/CMakeFiles/ai_tools.dir/DependInfo.cmake"
+  "/home/lut/Desktop/C++/fastknn/cmake-build-debug/src/CMakeFiles/lutmath_tools.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

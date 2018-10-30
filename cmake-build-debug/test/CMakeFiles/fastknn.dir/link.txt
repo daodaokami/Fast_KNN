@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/fastknn.dir/main.cpp.o  -o fastknn -Wl,-rpath,/home/lut/Desktop/C++/fastknn/cmake-build-debug/src ../src/liblutmath_tools.so 

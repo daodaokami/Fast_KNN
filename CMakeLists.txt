@@ -1,8 +1,15 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 2.8)
 project(fastknn)
 
 set(CMAKE_CXX_STANDARD 11)
-add_subdirectory(${PROJECT_SOURCE_DIR}/src)
+set(CMAKE_BUILD_TYPE "Debug")
+set(CMAKE_CXX_FLAGS "-O3")
 
-add_executable(fastknn main.cpp)
-target_link_libraries(fastknn ai_tools)
+find_package(OpenCV REQUIRED)
+include_directories(${OpenCV_INCLUDE_DIRS})
+
+set(THIRD_PARTY_LIBS ${OpenCV_LIBS})
+
+include_directories(${PROJECT_SOURCE_DIR}/include)
+add_subdirectory(src)
+add_subdirectory(test)

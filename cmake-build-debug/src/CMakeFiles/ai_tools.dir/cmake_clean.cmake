@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ai_tools.dir/kdtree.cpp.o"
   "CMakeFiles/ai_tools.dir/knn.cpp.o"
+  "CMakeFiles/ai_tools.dir/distance.cpp.o"
   "libai_tools.pdb"
   "libai_tools.so"
 )

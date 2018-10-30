@@ -111,73 +111,46 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/CMakeFiles/ai_tools.dir/rule:
-	cd /home/lut/Desktop/C++/fastknn/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/ai_tools.dir/rule
-.PHONY : src/CMakeFiles/ai_tools.dir/rule
+src/CMakeFiles/mathtools.dir/rule:
+	cd /home/lut/Desktop/C++/fastknn/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/mathtools.dir/rule
+.PHONY : src/CMakeFiles/mathtools.dir/rule
 
 # Convenience name for target.
-ai_tools: src/CMakeFiles/ai_tools.dir/rule
+mathtools: src/CMakeFiles/mathtools.dir/rule
 
-.PHONY : ai_tools
+.PHONY : mathtools
 
 # fast build rule for target.
-ai_tools/fast:
-	cd /home/lut/Desktop/C++/fastknn/cmake-build-debug && $(MAKE) -f src/CMakeFiles/ai_tools.dir/build.make src/CMakeFiles/ai_tools.dir/build
-.PHONY : ai_tools/fast
+mathtools/fast:
+	cd /home/lut/Desktop/C++/fastknn/cmake-build-debug && $(MAKE) -f src/CMakeFiles/mathtools.dir/build.make src/CMakeFiles/mathtools.dir/build
+.PHONY : mathtools/fast
 
-kdtree.o: kdtree.cpp.o
+distance.o: distance.cpp.o
 
-.PHONY : kdtree.o
-
-# target to build an object file
-kdtree.cpp.o:
-	cd /home/lut/Desktop/C++/fastknn/cmake-build-debug && $(MAKE) -f src/CMakeFiles/ai_tools.dir/build.make src/CMakeFiles/ai_tools.dir/kdtree.cpp.o
-.PHONY : kdtree.cpp.o
-
-kdtree.i: kdtree.cpp.i
-
-.PHONY : kdtree.i
-
-# target to preprocess a source file
-kdtree.cpp.i:
-	cd /home/lut/Desktop/C++/fastknn/cmake-build-debug && $(MAKE) -f src/CMakeFiles/ai_tools.dir/build.make src/CMakeFiles/ai_tools.dir/kdtree.cpp.i
-.PHONY : kdtree.cpp.i
-
-kdtree.s: kdtree.cpp.s
-
-.PHONY : kdtree.s
-
-# target to generate assembly for a file
-kdtree.cpp.s:
-	cd /home/lut/Desktop/C++/fastknn/cmake-build-debug && $(MAKE) -f src/CMakeFiles/ai_tools.dir/build.make src/CMakeFiles/ai_tools.dir/kdtree.cpp.s
-.PHONY : kdtree.cpp.s
-
-knn.o: knn.cpp.o
-
-.PHONY : knn.o
+.PHONY : distance.o
 
 # target to build an object file
-knn.cpp.o:
-	cd /home/lut/Desktop/C++/fastknn/cmake-build-debug && $(MAKE) -f src/CMakeFiles/ai_tools.dir/build.make src/CMakeFiles/ai_tools.dir/knn.cpp.o
-.PHONY : knn.cpp.o
+distance.cpp.o:
+	cd /home/lut/Desktop/C++/fastknn/cmake-build-debug && $(MAKE) -f src/CMakeFiles/mathtools.dir/build.make src/CMakeFiles/mathtools.dir/distance.cpp.o
+.PHONY : distance.cpp.o
 
-knn.i: knn.cpp.i
+distance.i: distance.cpp.i
 
-.PHONY : knn.i
+.PHONY : distance.i
 
 # target to preprocess a source file
-knn.cpp.i:
-	cd /home/lut/Desktop/C++/fastknn/cmake-build-debug && $(MAKE) -f src/CMakeFiles/ai_tools.dir/build.make src/CMakeFiles/ai_tools.dir/knn.cpp.i
-.PHONY : knn.cpp.i
+distance.cpp.i:
+	cd /home/lut/Desktop/C++/fastknn/cmake-build-debug && $(MAKE) -f src/CMakeFiles/mathtools.dir/build.make src/CMakeFiles/mathtools.dir/distance.cpp.i
+.PHONY : distance.cpp.i
 
-knn.s: knn.cpp.s
+distance.s: distance.cpp.s
 
-.PHONY : knn.s
+.PHONY : distance.s
 
 # target to generate assembly for a file
-knn.cpp.s:
-	cd /home/lut/Desktop/C++/fastknn/cmake-build-debug && $(MAKE) -f src/CMakeFiles/ai_tools.dir/build.make src/CMakeFiles/ai_tools.dir/knn.cpp.s
-.PHONY : knn.cpp.s
+distance.cpp.s:
+	cd /home/lut/Desktop/C++/fastknn/cmake-build-debug && $(MAKE) -f src/CMakeFiles/mathtools.dir/build.make src/CMakeFiles/mathtools.dir/distance.cpp.s
+.PHONY : distance.cpp.s
 
 # Help Target
 help:
@@ -187,13 +160,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... ai_tools"
-	@echo "... kdtree.o"
-	@echo "... kdtree.i"
-	@echo "... kdtree.s"
-	@echo "... knn.o"
-	@echo "... knn.i"
-	@echo "... knn.s"
+	@echo "... mathtools"
+	@echo "... distance.o"
+	@echo "... distance.i"
+	@echo "... distance.s"
 .PHONY : help
 
 
