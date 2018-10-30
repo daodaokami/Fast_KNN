@@ -138,7 +138,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/lut/Desktop/C++/fastknn/src/distance.cpp">
+		<Unit filename="/home/lut/Desktop/C++/fastknn/src/knn.cpp">
 			<Option target="mathtools"/>
 		</Unit>
 		<Unit filename="/home/lut/Desktop/C++/fastknn/test/testdistance.cpp">

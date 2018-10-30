@@ -57,38 +57,38 @@ include src/CMakeFiles/mathtools.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/mathtools.dir/flags.make
 
-src/CMakeFiles/mathtools.dir/distance.cpp.o: src/CMakeFiles/mathtools.dir/flags.make
-src/CMakeFiles/mathtools.dir/distance.cpp.o: ../src/distance.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lut/Desktop/C++/fastknn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/mathtools.dir/distance.cpp.o"
-	cd /home/lut/Desktop/C++/fastknn/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mathtools.dir/distance.cpp.o -c /home/lut/Desktop/C++/fastknn/src/distance.cpp
+src/CMakeFiles/mathtools.dir/knn.cpp.o: src/CMakeFiles/mathtools.dir/flags.make
+src/CMakeFiles/mathtools.dir/knn.cpp.o: ../src/knn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lut/Desktop/C++/fastknn/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/mathtools.dir/knn.cpp.o"
+	cd /home/lut/Desktop/C++/fastknn/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mathtools.dir/knn.cpp.o -c /home/lut/Desktop/C++/fastknn/src/knn.cpp
 
-src/CMakeFiles/mathtools.dir/distance.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mathtools.dir/distance.cpp.i"
-	cd /home/lut/Desktop/C++/fastknn/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lut/Desktop/C++/fastknn/src/distance.cpp > CMakeFiles/mathtools.dir/distance.cpp.i
+src/CMakeFiles/mathtools.dir/knn.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mathtools.dir/knn.cpp.i"
+	cd /home/lut/Desktop/C++/fastknn/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lut/Desktop/C++/fastknn/src/knn.cpp > CMakeFiles/mathtools.dir/knn.cpp.i
 
-src/CMakeFiles/mathtools.dir/distance.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mathtools.dir/distance.cpp.s"
-	cd /home/lut/Desktop/C++/fastknn/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lut/Desktop/C++/fastknn/src/distance.cpp -o CMakeFiles/mathtools.dir/distance.cpp.s
+src/CMakeFiles/mathtools.dir/knn.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mathtools.dir/knn.cpp.s"
+	cd /home/lut/Desktop/C++/fastknn/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lut/Desktop/C++/fastknn/src/knn.cpp -o CMakeFiles/mathtools.dir/knn.cpp.s
 
-src/CMakeFiles/mathtools.dir/distance.cpp.o.requires:
+src/CMakeFiles/mathtools.dir/knn.cpp.o.requires:
 
-.PHONY : src/CMakeFiles/mathtools.dir/distance.cpp.o.requires
+.PHONY : src/CMakeFiles/mathtools.dir/knn.cpp.o.requires
 
-src/CMakeFiles/mathtools.dir/distance.cpp.o.provides: src/CMakeFiles/mathtools.dir/distance.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/mathtools.dir/build.make src/CMakeFiles/mathtools.dir/distance.cpp.o.provides.build
-.PHONY : src/CMakeFiles/mathtools.dir/distance.cpp.o.provides
+src/CMakeFiles/mathtools.dir/knn.cpp.o.provides: src/CMakeFiles/mathtools.dir/knn.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/mathtools.dir/build.make src/CMakeFiles/mathtools.dir/knn.cpp.o.provides.build
+.PHONY : src/CMakeFiles/mathtools.dir/knn.cpp.o.provides
 
-src/CMakeFiles/mathtools.dir/distance.cpp.o.provides.build: src/CMakeFiles/mathtools.dir/distance.cpp.o
+src/CMakeFiles/mathtools.dir/knn.cpp.o.provides.build: src/CMakeFiles/mathtools.dir/knn.cpp.o
 
 
 # Object files for target mathtools
 mathtools_OBJECTS = \
-"CMakeFiles/mathtools.dir/distance.cpp.o"
+"CMakeFiles/mathtools.dir/knn.cpp.o"
 
 # External object files for target mathtools
 mathtools_EXTERNAL_OBJECTS =
 
-src/libmathtools.so: src/CMakeFiles/mathtools.dir/distance.cpp.o
+src/libmathtools.so: src/CMakeFiles/mathtools.dir/knn.cpp.o
 src/libmathtools.so: src/CMakeFiles/mathtools.dir/build.make
 src/libmathtools.so: /usr/local/lib/libopencv_stitching.so.3.4.0
 src/libmathtools.so: /usr/local/lib/libopencv_superres.so.3.4.0
@@ -145,7 +145,7 @@ src/CMakeFiles/mathtools.dir/build: src/libmathtools.so
 
 .PHONY : src/CMakeFiles/mathtools.dir/build
 
-src/CMakeFiles/mathtools.dir/requires: src/CMakeFiles/mathtools.dir/distance.cpp.o.requires
+src/CMakeFiles/mathtools.dir/requires: src/CMakeFiles/mathtools.dir/knn.cpp.o.requires
 
 .PHONY : src/CMakeFiles/mathtools.dir/requires
 

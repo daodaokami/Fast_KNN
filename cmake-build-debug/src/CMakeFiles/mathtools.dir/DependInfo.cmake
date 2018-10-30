@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lut/Desktop/C++/fastknn/src/distance.cpp" "/home/lut/Desktop/C++/fastknn/cmake-build-debug/src/CMakeFiles/mathtools.dir/distance.cpp.o"
+  "/home/lut/Desktop/C++/fastknn/src/knn.cpp" "/home/lut/Desktop/C++/fastknn/cmake-build-debug/src/CMakeFiles/mathtools.dir/knn.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

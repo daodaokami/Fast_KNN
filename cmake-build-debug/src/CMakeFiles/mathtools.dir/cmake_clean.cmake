@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/mathtools.dir/distance.cpp.o"
+  "CMakeFiles/mathtools.dir/knn.cpp.o"
   "libmathtools.pdb"
   "libmathtools.so"
 )

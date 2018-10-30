@@ -6,13 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/lut/Desktop/C++/fastknn/include/distance.h
+../include/distance.h
 iostream
 -
 cmath
 -
 
-/home/lut/Desktop/C++/fastknn/src/distance.cpp
+../include/knn.h
+distance.h
 ../include/distance.h
-/home/lut/Desktop/C++/fastknn/include/distance.h
+
+/home/lut/Desktop/C++/fastknn/src/knn.cpp
+knn.h
+/home/lut/Desktop/C++/fastknn/src/knn.h
 

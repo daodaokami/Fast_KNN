@@ -12,9 +12,15 @@ iostream
 cmath
 -
 
+../include/knn.h
+distance.h
+../include/distance.h
+
 /home/lut/Desktop/C++/fastknn/test/testdistance.cpp
 distance.h
 /home/lut/Desktop/C++/fastknn/test/distance.h
+knn.h
+/home/lut/Desktop/C++/fastknn/test/knn.h
 iostream
 -
 opencv2/highgui/highgui.hpp

@@ -3,6 +3,7 @@
 
 test/CMakeFiles/getdis.dir/testdistance.cpp.o
  ../include/distance.h
+ ../include/knn.h
  /home/lut/Desktop/C++/fastknn/test/testdistance.cpp
  /usr/local/include/opencv/cxcore.h
  /usr/local/include/opencv2/calib3d.hpp

@@ -125,32 +125,32 @@ mathtools/fast:
 	cd /home/lut/Desktop/C++/fastknn/cmake-build-debug && $(MAKE) -f src/CMakeFiles/mathtools.dir/build.make src/CMakeFiles/mathtools.dir/build
 .PHONY : mathtools/fast
 
-distance.o: distance.cpp.o
+knn.o: knn.cpp.o
 
-.PHONY : distance.o
+.PHONY : knn.o
 
 # target to build an object file
-distance.cpp.o:
-	cd /home/lut/Desktop/C++/fastknn/cmake-build-debug && $(MAKE) -f src/CMakeFiles/mathtools.dir/build.make src/CMakeFiles/mathtools.dir/distance.cpp.o
-.PHONY : distance.cpp.o
+knn.cpp.o:
+	cd /home/lut/Desktop/C++/fastknn/cmake-build-debug && $(MAKE) -f src/CMakeFiles/mathtools.dir/build.make src/CMakeFiles/mathtools.dir/knn.cpp.o
+.PHONY : knn.cpp.o
 
-distance.i: distance.cpp.i
+knn.i: knn.cpp.i
 
-.PHONY : distance.i
+.PHONY : knn.i
 
 # target to preprocess a source file
-distance.cpp.i:
-	cd /home/lut/Desktop/C++/fastknn/cmake-build-debug && $(MAKE) -f src/CMakeFiles/mathtools.dir/build.make src/CMakeFiles/mathtools.dir/distance.cpp.i
-.PHONY : distance.cpp.i
+knn.cpp.i:
+	cd /home/lut/Desktop/C++/fastknn/cmake-build-debug && $(MAKE) -f src/CMakeFiles/mathtools.dir/build.make src/CMakeFiles/mathtools.dir/knn.cpp.i
+.PHONY : knn.cpp.i
 
-distance.s: distance.cpp.s
+knn.s: knn.cpp.s
 
-.PHONY : distance.s
+.PHONY : knn.s
 
 # target to generate assembly for a file
-distance.cpp.s:
-	cd /home/lut/Desktop/C++/fastknn/cmake-build-debug && $(MAKE) -f src/CMakeFiles/mathtools.dir/build.make src/CMakeFiles/mathtools.dir/distance.cpp.s
-.PHONY : distance.cpp.s
+knn.cpp.s:
+	cd /home/lut/Desktop/C++/fastknn/cmake-build-debug && $(MAKE) -f src/CMakeFiles/mathtools.dir/build.make src/CMakeFiles/mathtools.dir/knn.cpp.s
+.PHONY : knn.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... mathtools"
-	@echo "... distance.o"
-	@echo "... distance.i"
-	@echo "... distance.s"
+	@echo "... knn.o"
+	@echo "... knn.i"
+	@echo "... knn.s"
 .PHONY : help
 
 
